@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        // # Project Options
+        "allowJs": true,
+        "checkJs": true,
+        "lib": ["dom", "esnext"],
+        "module": "commonjs",
+        "outDir": "dist",
+        "removeComments": true,
+        "target": "esnext",
+        "declaration": true,
+        "declarationDir": "dist/@types",
+        "declarationMap": true,
+        "sourceMap": true,
+        "jsx": "react-jsx",
+
+        // # Strict Checks
+        "strict": true,
+
+        // # Module Resolution
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+
+        // # Advanced
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": ["./src/**/*.test.ts"]
+}
